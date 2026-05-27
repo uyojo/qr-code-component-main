@@ -25,10 +25,9 @@ main {
     flex-direction: column;
     background-color: var(--white);
     border-radius: 20px;
-    padding: 16px;
+    padding: 16px 16px 40px 16px;
     text-align: center;
-    width: 320px;
-    height: 499px;
+    max-width: 320px;
 }
 
 .card img {
@@ -39,14 +38,14 @@ main {
 
 .card h1 {
     color: var(--slate-900);
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: 16px;
     line-height: 1.2;
 }
 
 .card p {
     color: var(--slate-500);
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 1.4;
     letter-spacing: 0.2px;
 }
